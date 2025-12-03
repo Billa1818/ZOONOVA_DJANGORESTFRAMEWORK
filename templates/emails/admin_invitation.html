@@ -1,0 +1,21 @@
+{% extends "emails/base.html" %}
+
+{% block content %}
+<h2>Invitation - Compte Administrateur</h2>
+
+<p>Bonjour,</p>
+
+<p>Un compte administrateur a été créé pour vous sur la plateforme zoonova.</p>
+
+<p><strong>Email:</strong> {{ admin.email }}</p>
+
+<p>Rendez-vous sur la plateforme pour configurer votre mot de passe et accéder à votre compte :</p>
+
+<p style="text-align: center;">
+    <a href="{{ setup_url }}" class="button">Configurer mon compte</a>
+</p>
+
+<p>Lors de votre première connexion, vous serez invité à créer votre mot de passe.</p>
+
+<p>Cordialement,<br>L'équipe zoonova</p>
+{% endblock %}

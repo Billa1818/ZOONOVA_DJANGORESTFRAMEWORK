@@ -1,0 +1,57 @@
+{% extends "emails/base.html" %}
+
+{% block content %}
+<h2>Confirmation de commande #{{ order.id }}</h2>
+
+<p>Bonjour {{ order.full_name }},</p>
+
+<p>Nous avons bien reçu votre commande. Merci pour votre confiance !</p>
+
+<div class="order-details">
+    <h3>Détails de la commande</h3>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Article</th>
+                <th>Quantité</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.book_title }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ item.subtotal|floatformat:2 }}€</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="2">Sous-total</td>
+                <td>{{ order.subtotal|floatformat:2 }}€</td>
+            </tr>
+            <tr>
+                <td colspan="2">Frais de port</td>
+                <td>{{ order.shipping_cost|floatformat:2 }}€</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">TOTAL</td>
+                <td>{{ order.total|floatformat:2 }}€</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Adresse de livraison</h3>
+    <p>
+        {{ order.full_name }}<br>
+        {{ order.numero_voie }} {{ order.voie }}<br>
+        {% if order.complement_adresse %}{{ order.complement_adresse }}<br>{% endif %}
+        {{ order.code_postal }} {{ order.ville }}<br>
+        {{ order.country.name }}
+    </p>
+</div>
+
+<p>Vous recevrez un email avec le numéro de suivi dès l'expédition de votre commande.</p>
+
+<p>Cordialement,<br>L'équipe zoonova</p>
+{% endblock %}

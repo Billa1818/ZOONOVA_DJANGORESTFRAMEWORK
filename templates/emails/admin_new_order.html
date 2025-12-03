@@ -1,0 +1,51 @@
+{% extends "emails/base.html" %}
+
+{% block content %}
+<h2>Nouvelle commande #{{ order.id }}</h2>
+
+<p>Une nouvelle commande vient d'être passée :</p>
+
+<div class="order-details">
+    <h3>Informations client</h3>
+    <p>
+        <strong>Nom:</strong> {{ order.full_name }}<br>
+        <strong>Email:</strong> {{ order.email }}<br>
+        <strong>Téléphone:</strong> {{ order.phone }}
+    </p>
+    
+    <h3>Articles commandés</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Article</th>
+                <th>Quantité</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.book_title }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ item.subtotal|floatformat:2 }}€</td>
+            </tr>
+            {% endfor %}
+            <tr class="total-row">
+                <td colspan="2">TOTAL</td>
+                <td>{{ order.total|floatformat:2 }}€</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Adresse de livraison</h3>
+    <p>
+        {{ order.full_name }}<br>
+        {{ order.numero_voie }} {{ order.voie }}<br>
+        {% if order.complement_adresse %}{{ order.complement_adresse }}<br>{% endif %}
+        {{ order.code_postal }} {{ order.ville }}<br>
+        {{ order.country.name }}
+    </p>
+</div>
+
+<p>Connectez-vous au backoffice pour traiter cette commande.</p>
+{% endblock %}
