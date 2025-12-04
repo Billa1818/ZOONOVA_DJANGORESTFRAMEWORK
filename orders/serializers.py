@@ -160,6 +160,7 @@ class OrderCreateSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         """Crée la commande avec ses articles"""
         from books.models import Book
+        from orders.shipping import calculate_shipping_cost, count_total_books
         
         items_data = validated_data.pop('items')
         country = validated_data['country']
@@ -181,7 +182,9 @@ class OrderCreateSerializer(serializers.ModelSerializer):
                 'quantity': quantity
             })
         
-        shipping_cost = country.shipping_cost
+        # Calculer les frais de port basés sur le nombre de livres et le pays
+        total_books = count_total_books(order_items)
+        shipping_cost = calculate_shipping_cost(country.name, total_books)
         total = subtotal + shipping_cost
         
         # Créer la commande

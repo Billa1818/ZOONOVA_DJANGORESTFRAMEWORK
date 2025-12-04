@@ -3938,3 +3938,962 @@ INFO 2025-12-03 11:53:27,372 autoreload /home/billa/Bureau/ZOONOVA/zoonova/zoono
 INFO 2025-12-03 11:54:58,770 autoreload Watching for file changes with StatReloader
 WARNING 2025-12-03 12:04:01,964 log Unauthorized: /api/v1/auth/login/
 WARNING 2025-12-03 12:04:18,371 log Unauthorized: /api/v1/auth/login/
+INFO 2025-12-03 23:16:39,709 autoreload Watching for file changes with StatReloader
+INFO 2025-12-03 23:17:37,483 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-03 23:17:38,802 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:17:39,757 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:18:08,754 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:18:09,762 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:18:38,722 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:18:39,763 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:19:08,747 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:19:09,771 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:19:40,365 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:19:41,445 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:20:10,352 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:20:11,454 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:20:40,430 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:20:41,566 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:20:44,658 log Not Found: /favicon.ico
+WARNING 2025-12-03 23:21:10,414 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:21:11,455 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:21:40,564 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:21:41,553 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:22:10,561 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:22:11,559 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:22:40,736 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:22:41,725 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:23:10,729 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:23:11,730 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:23:40,900 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:23:41,904 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:24:10,911 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:24:11,912 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:24:41,066 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:24:42,073 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:25:11,072 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:25:12,079 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:25:41,290 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:25:42,295 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:26:11,285 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:26:12,288 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:26:41,466 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:26:42,456 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:27:11,453 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:27:12,457 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:27:41,585 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:27:42,589 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:28:11,586 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:28:12,590 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:28:35,110 log Not Found: /
+WARNING 2025-12-03 23:28:35,366 log Not Found: /favicon.ico
+WARNING 2025-12-03 23:28:41,776 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:28:42,773 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:29:11,767 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:29:12,771 log Not Found: /api/notifications/stats/
+ERROR 2025-12-03 23:29:18,711 log Internal Server Error: /admin/media/bookvideo/
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: BookVideo has no field named 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 321, in __init__
+    super().__init__(*items)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 299, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/media/admin.py", line 125, in display_video_url
+    if obj.video_url:
+       ^^^^^^^^^^^^^
+AttributeError: 'BookVideo' object has no attribute 'video_url'. Did you mean: 'video_file'?
+ERROR 2025-12-03 23:29:33,624 log Internal Server Error: /admin/media/bookvideo/
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: BookVideo has no field named 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 321, in __init__
+    super().__init__(*items)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 299, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/media/admin.py", line 125, in display_video_url
+    if obj.video_url:
+       ^^^^^^^^^^^^^
+AttributeError: 'BookVideo' object has no attribute 'video_url'. Did you mean: 'video_file'?
+WARNING 2025-12-03 23:29:41,943 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:29:42,930 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:30:11,929 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:30:12,928 log Not Found: /api/notifications/stats/
+INFO 2025-12-03 23:31:51,427 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-03 23:32:12,471 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:32:13,389 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:32:42,407 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:32:43,410 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:33:12,441 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:33:13,411 log Not Found: /api/notifications/stats/
+INFO 2025-12-03 23:33:32,866 autoreload /home/billa/Bureau/ZOONOVA/zoonova/media/admin.py changed, reloading.
+INFO 2025-12-03 23:33:38,188 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-03 23:33:42,663 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:33:43,636 log Not Found: /api/notifications/stats/
+INFO 2025-12-03 23:33:52,569 autoreload /home/billa/Bureau/ZOONOVA/zoonova/media/admin.py changed, reloading.
+INFO 2025-12-03 23:33:56,111 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-03 23:34:02,531 log Internal Server Error: /admin/media/bookvideo/
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: BookVideo has no field named 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 321, in __init__
+    super().__init__(*items)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 299, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/media/admin.py", line 125, in display_video_url
+    if obj.video_url:
+       ^^^^^^^^^^^^^
+AttributeError: 'BookVideo' object has no attribute 'video_url'. Did you mean: 'video_file'?
+ERROR 2025-12-03 23:34:06,304 log Internal Server Error: /admin/media/bookvideo/
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: BookVideo has no field named 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 321, in __init__
+    super().__init__(*items)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 299, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/media/admin.py", line 125, in display_video_url
+    if obj.video_url:
+       ^^^^^^^^^^^^^
+AttributeError: 'BookVideo' object has no attribute 'video_url'. Did you mean: 'video_file'?
+WARNING 2025-12-03 23:34:12,645 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:34:13,644 log Not Found: /api/notifications/stats/
+INFO 2025-12-03 23:34:26,194 autoreload /home/billa/Bureau/ZOONOVA/zoonova/media/admin.py changed, reloading.
+INFO 2025-12-03 23:34:28,145 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-03 23:34:42,834 log Not Found: /api/notifications/stats/
+ERROR 2025-12-03 23:34:43,434 log Internal Server Error: /admin/media/bookvideo/
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 683, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/options.py", line 685, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: BookVideo has no field named 'display_video_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/template/library.py", line 359, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 354, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 330, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 321, in __init__
+    super().__init__(*items)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py", line 219, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/contrib/admin/utils.py", line 299, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/media/admin.py", line 125, in display_video_url
+    if obj.video_url:
+       ^^^^^^^^^^^^^
+AttributeError: 'BookVideo' object has no attribute 'video_url'. Did you mean: 'video_file'?
+WARNING 2025-12-03 23:34:43,827 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:35:12,826 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:35:13,848 log Not Found: /api/notifications/stats/
+INFO 2025-12-03 23:35:30,172 autoreload /home/billa/Bureau/ZOONOVA/zoonova/media/admin.py changed, reloading.
+INFO 2025-12-03 23:35:33,108 autoreload Watching for file changes with StatReloader
+INFO 2025-12-03 23:35:40,470 autoreload /home/billa/Bureau/ZOONOVA/zoonova/media/admin.py changed, reloading.
+INFO 2025-12-03 23:35:42,857 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-03 23:36:13,073 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:36:14,062 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:36:17,487 log Not Found: /favicon.ico
+WARNING 2025-12-03 23:36:43,221 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:36:44,216 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:37:13,251 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:37:14,231 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:37:43,392 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:37:44,399 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:38:13,406 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:38:14,399 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:38:43,715 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:38:44,765 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:39:13,630 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:39:14,733 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:39:43,625 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:39:44,828 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:40:13,627 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:40:14,818 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:40:43,768 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:40:44,818 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:41:13,775 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:41:14,822 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:41:44,003 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:41:45,002 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:42:14,110 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:42:15,037 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:42:44,214 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:42:45,203 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:43:14,204 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:43:15,204 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:43:44,546 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:43:45,454 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:43:49,292 log Not Found: /api/books/
+WARNING 2025-12-03 23:44:14,456 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:44:15,424 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:44:44,660 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:44:45,650 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:45:14,591 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:45:15,671 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:45:44,610 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:45:45,779 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:46:14,562 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:46:15,774 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:46:44,688 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:46:45,774 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:47:14,690 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:47:15,767 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:47:44,714 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:47:45,799 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:48:14,731 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:48:15,951 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:48:44,763 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:48:45,886 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:49:14,706 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:49:15,898 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:49:44,818 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:49:45,895 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:50:14,852 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:50:15,896 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:50:44,933 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:50:45,975 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:51:14,995 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:51:15,947 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:51:45,265 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:51:46,104 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:52:15,104 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:52:16,086 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:52:45,259 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:52:46,261 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:53:15,393 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:53:16,302 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:53:45,452 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:53:46,449 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:54:15,489 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:54:16,475 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:54:45,647 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:54:46,657 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:55:15,636 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:55:16,674 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:55:45,854 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:55:46,834 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:56:15,847 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:56:16,847 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:56:46,691 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:56:47,083 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:57:16,061 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:57:17,158 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:57:46,052 log Not Found: /api/notifications/stats/
+WARNING 2025-12-03 23:57:47,096 log Not Found: /api/notifications/stats/
+INFO 2025-12-04 01:48:31,202 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-04 01:48:55,988 log Not Found: /api/notifications/stats/
+WARNING 2025-12-04 01:48:55,988 log Not Found: /api/notifications/stats/
+WARNING 2025-12-04 01:49:18,609 log Not Found: /api/notifications/stats/
+WARNING 2025-12-04 01:49:20,068 log Not Found: /api/notifications/stats/
+WARNING 2025-12-04 01:49:48,554 log Not Found: /api/notifications/stats/
+WARNING 2025-12-04 01:49:52,591 log Not Found: /api/notifications/stats/
+INFO 2025-12-04 01:52:36,818 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-04 01:53:31,588 log Unauthorized: /api/v1/books/
+WARNING 2025-12-04 01:53:31,662 log Unauthorized: /api/v1/books/
+WARNING 2025-12-04 01:53:31,795 log Not Found: /api/v1auth/token/refresh/
+INFO 2025-12-04 09:31:36,603 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-04 09:49:59,421 log Not Found: /favicon.ico
+INFO 2025-12-04 10:06:51,123 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:06:53,949 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 10:07:02,681 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:07:04,334 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 10:14:16,423 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:14:20,784 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 10:14:56,314 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:14:58,939 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 10:15:06,912 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:15:08,499 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-04 10:34:09,217 views Commande 50 introuvable pour webhook
+ERROR 2025-12-04 10:34:09,477 views Commande 50 introuvable pour webhook
+INFO 2025-12-04 10:39:16,800 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-04 10:39:23,395 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-04 10:39:45,172 views Payment intent pi_3SaZ0lEhZwIDsAtp1RKXxA6x traité pour order 41
+ERROR 2025-12-04 10:39:45,691 views Erreur création StripePayment pour order 41: UNIQUE constraint failed: stripe_payments.payment_intent_id
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/payments/views.py", line 177, in handle_checkout_session_completed
+    StripePayment.objects.create(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+INFO 2025-12-04 10:42:17,339 util message='Request to Stripe api' method=get path=https://api.stripe.com/v1/payment_intents/pi_3SaZ0lEhZwIDsAtp1RKXxA6x
+INFO 2025-12-04 10:42:21,344 util message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3SaZ0lEhZwIDsAtp1RKXxA6x response_code=200
+INFO 2025-12-04 10:42:21,356 util message='Request to Stripe api' method=get path=https://api.stripe.com/v1/payment_intents/pi_3SaZ0lEhZwIDsAtp1RKXxA6x
+INFO 2025-12-04 10:42:21,818 util message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3SaZ0lEhZwIDsAtp1RKXxA6x response_code=200
+INFO 2025-12-04 10:44:15,616 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:44:19,096 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 10:46:03,552 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 10:46:05,517 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 10:46:55,349 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-04 10:47:01,915 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-04 10:47:18,294 views StripePayment créé pour order 42
+INFO 2025-12-04 10:47:18,477 views Payment intent pi_3SaZ83EhZwIDsAtp068fRyfs traité pour order 42
+INFO 2025-12-04 10:47:21,630 views Facture envoyée par email pour order 42
+INFO 2025-12-04 10:51:45,695 util message='Request to Stripe api' method=get path=https://api.stripe.com/v1/payment_intents/pi_3SaZ83EhZwIDsAtp068fRyfs
+INFO 2025-12-04 10:51:47,021 util message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3SaZ83EhZwIDsAtp068fRyfs response_code=200
+INFO 2025-12-04 10:51:47,035 util message='Request to Stripe api' method=get path=https://api.stripe.com/v1/payment_intents/pi_3SaZ83EhZwIDsAtp068fRyfs
+INFO 2025-12-04 10:51:47,542 util message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3SaZ83EhZwIDsAtp068fRyfs response_code=200
+ERROR 2025-12-04 10:52:42,532 views Commande 51 introuvable pour webhook
+ERROR 2025-12-04 10:52:42,770 views Commande 51 introuvable pour webhook
+WARNING 2025-12-04 10:53:40,115 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:53:41,267 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:53:42,054 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:53:42,842 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:01,734 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:02,517 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:03,125 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:03,408 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:03,715 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:04,010 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:04,364 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:25,981 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:26,956 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:57,272 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:54:58,936 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:55:25,713 log Unauthorized: /api/v1/orders/countries/
+WARNING 2025-12-04 10:55:25,745 log Unauthorized: /api/v1/orders/countries/
+WARNING 2025-12-04 10:55:25,839 log Unauthorized: /api/v1/orders/countries/
+WARNING 2025-12-04 10:55:25,841 log Unauthorized: /api/v1/orders/countries/
+WARNING 2025-12-04 10:55:25,937 log Not Found: /api/v1auth/token/refresh/
+WARNING 2025-12-04 10:56:16,916 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 10:57:29,930 log Bad Request: /api/v1/orders/
+INFO 2025-12-04 10:59:20,663 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-04 10:59:21,989 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-04 11:11:27,321 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/shipping.py changed, reloading.
+INFO 2025-12-04 11:11:32,837 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 11:11:37,898 autoreload /home/billa/Bureau/ZOONOVA/zoonova/orders/serializers.py changed, reloading.
+INFO 2025-12-04 11:11:39,740 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-04 11:13:03,789 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 11:13:47,448 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 11:16:31,064 log Unauthorized: /api/v1/auth/login/
+WARNING 2025-12-04 11:16:54,268 log Unauthorized: /api/v1/auth/login/
+WARNING 2025-12-04 11:17:23,975 log Unauthorized: /api/v1/auth/login/
+WARNING 2025-12-04 11:19:15,740 log Unauthorized: /api/v1/auth/login/
+WARNING 2025-12-04 11:21:22,640 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 11:21:23,703 log Bad Request: /api/v1/orders/
+WARNING 2025-12-04 11:21:24,496 log Bad Request: /api/v1/orders/
+INFO 2025-12-04 11:22:34,578 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-04 11:22:36,373 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-04 11:25:28,200 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-04 11:25:30,094 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-04 11:25:52,021 views Payment intent pi_3SaZjOEhZwIDsAtp0Ya2t76h traité pour order 50
+ERROR 2025-12-04 11:25:52,079 views Erreur création StripePayment pour order 50: UNIQUE constraint failed: stripe_payments.payment_intent_id
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/payments/views.py", line 177, in handle_checkout_session_completed
+    StripePayment.objects.create(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id

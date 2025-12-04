@@ -39,9 +39,9 @@ class BookVideoInline(admin.TabularInline):
     extra = 1
     
     # Ordre des champs à afficher
-    fields = ('title', 'video_url', 'description', 'order')
+    fields = ('title', 'video_file', 'description', 'order')
 
-
+ 
 # --- Admin pour les Images (gestion directe) ---
 @admin.register(BookImage)
 class BookImageAdmin(admin.ModelAdmin):
@@ -98,17 +98,17 @@ class BookVideoAdmin(admin.ModelAdmin):
     Admin pour gérer les vidéos directement
     Les vidéos sont aussi gérées via inline dans BookAdmin
     """
-    list_display = ('book', 'title', 'display_video_url', 'order', 'created_at')
+    list_display = ('book', 'title', 'display_video_file', 'order', 'created_at')
     list_filter = ('created_at', 'order')
-    search_fields = ('book__titre', 'title', 'video_url')
-    readonly_fields = ('created_at', 'updated_at')
+    search_fields = ('book__titre', 'title')
+    readonly_fields = ('created_at', 'updated_at', 'display_video_preview')
     
     fieldsets = (
         ('Informations', {
             'fields': ('book', 'title', 'order')
         }),
         ('Vidéo', {
-            'fields': ('video_url',)
+            'fields': ('video_file', 'display_video_preview')
         }),
         ('Description', {
             'fields': ('description',)
@@ -119,20 +119,25 @@ class BookVideoAdmin(admin.ModelAdmin):
         }),
     )
     
-    @admin.display(description="URL")
-    def display_video_url(self, obj):
-        """Affiche l'URL avec un lien cliquable"""
-        if obj.video_url:
-            # Extraire le domaine
-            if 'youtube' in obj.video_url:
-                platform = '🎥 YouTube'
-            elif 'vimeo' in obj.video_url:
-                platform = '📹 Vimeo'
-            else:
-                platform = '📺 Vidéo'
-            
+    @admin.display(description="Fichier")
+    def display_video_file(self, obj):
+        """Affiche le nom du fichier vidéo avec lien"""
+        if obj.video_file:
             return format_html(
-                '<a href="{}" target="_blank" title="{}">{}</a>', 
-                obj.video_url, obj.video_url, platform
+                '<a href="{}" target="_blank" title="Télécharger">📹 {}</a>', 
+                obj.video_file.url, obj.video_file.name.split('/')[-1]
             )
         return "—"
+    
+    @admin.display(description="Aperçu")
+    def display_video_preview(self, obj):
+        """Affiche un lecteur vidéo pour prévisualiser"""
+        if obj.video_file:
+            return format_html(
+                '<video style="max-width: 300px; max-height: 300px; border: 1px solid #ddd; border-radius: 4px;" controls>'
+                '<source src="{}" type="video/mp4">'
+                'Votre navigateur ne supporte pas la balise vidéo'
+                '</video>',
+                obj.video_file.url
+            )
+        return "Aucune vidéo uploadée"

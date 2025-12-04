@@ -86,7 +86,7 @@ pip install -r requirements.txt
 ```text
   install stripe-cli  sur votre machin et lancer cette commande : -> 
   
-   stripe listen --forward-to 192.168.10.238:8000/api/v1/payments/webhook/
+   stripe listen --forward-to 127.0.0.1:8000/api/v1/payments/webhook/
    
 \q
 ```
