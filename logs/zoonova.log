@@ -4897,3 +4897,223 @@ Traceback (most recent call last):
     return super().execute(query, params)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 django.db.utils.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+INFO 2025-12-05 14:05:09,346 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-05 14:05:13,571 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:05:14,600 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:05:41,031 log Not Found: /favicon.ico
+WARNING 2025-12-05 14:05:43,534 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:05:44,689 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:06:13,545 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:06:14,695 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:06:43,544 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:06:44,694 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:07:13,541 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:07:14,695 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:07:43,745 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:07:44,749 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:08:13,745 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:08:14,749 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:08:43,744 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:08:44,814 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:09:13,752 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:09:14,813 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:09:43,746 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:09:44,806 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:10:13,756 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:10:14,814 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:10:43,748 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:10:44,871 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:11:13,755 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:11:14,950 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:11:43,886 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:11:44,952 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:12:13,859 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:12:14,959 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:12:43,851 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:12:44,959 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:13:13,876 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:13:14,964 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:13:44,124 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:13:45,114 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:14:14,125 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:14:15,126 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:14:44,126 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:14:45,183 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:15:14,120 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:15:15,281 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:15:44,134 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:15:45,268 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:16:14,139 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:16:15,274 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:16:44,142 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:16:45,274 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:17:14,135 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:17:15,268 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:17:44,144 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:17:45,287 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:18:14,134 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:18:15,291 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:18:44,144 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:18:45,287 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:19:14,140 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:19:15,294 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:19:44,323 log Not Found: /api/notifications/stats/
+WARNING 2025-12-05 14:19:45,326 log Not Found: /api/notifications/stats/
+INFO 2025-12-06 14:10:09,544 autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 16:37:14,890 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-06 16:37:44,829 log Not Found: /api/notifications/notifications/my_notifications/
+WARNING 2025-12-06 16:59:13,371 log Bad Request: /api/v1/books/
+INFO 2025-12-06 17:01:20,044 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-06 17:01:21,884 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-06 17:01:53,607 views Payment intent pi_3SbNvfEhZwIDsAtp0tetzT5E traité pour order 51
+ERROR 2025-12-06 17:01:54,377 views Erreur création StripePayment pour order 51: UNIQUE constraint failed: stripe_payments.payment_intent_id
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/payments/views.py", line 177, in handle_checkout_session_completed
+    StripePayment.objects.create(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+WARNING 2025-12-06 17:02:01,900 log Unauthorized: /api/v1/orders/statistics/
+WARNING 2025-12-06 17:02:01,940 log Unauthorized: /api/v1/orders/statistics/
+WARNING 2025-12-06 17:02:01,936 log Unauthorized: /api/v1/contact/messages/statistics/
+WARNING 2025-12-06 17:02:01,992 log Unauthorized: /api/v1/contact/messages/statistics/
+INFO 2025-12-06 17:04:38,785 autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 17:12:37,608 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-06 17:12:53,800 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-06 17:21:00,184 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-06 17:21:02,501 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-06 17:21:41,994 views Payment intent pi_3SbOEoEhZwIDsAtp0RD2cO2x traité pour order 63
+ERROR 2025-12-06 17:21:41,997 views Erreur création StripePayment pour order 63: UNIQUE constraint failed: stripe_payments.payment_intent_id
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/billa/Bureau/ZOONOVA/zoonova/payments/views.py", line 177, in handle_checkout_session_completed
+    StripePayment.objects.create(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/billa/Bureau/ZOONOVA/zoonova/env/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: stripe_payments.payment_intent_id
+INFO 2025-12-06 17:21:48,985 util message='Request to Stripe api' method=get path=https://api.stripe.com/v1/payment_intents/pi_3SbOEoEhZwIDsAtp0RD2cO2x
+INFO 2025-12-06 17:21:52,529 util message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3SbOEoEhZwIDsAtp0RD2cO2x response_code=200
+INFO 2025-12-06 17:21:52,591 util message='Request to Stripe api' method=get path=https://api.stripe.com/v1/payment_intents/pi_3SbOEoEhZwIDsAtp0RD2cO2x
+INFO 2025-12-06 17:21:53,298 util message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3SbOEoEhZwIDsAtp0RD2cO2x response_code=200
+INFO 2025-12-08 07:45:47,643 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-08 07:47:37,589 log Unauthorized: /api/v1/books/
+WARNING 2025-12-08 07:47:37,667 log Unauthorized: /api/v1/books/
+WARNING 2025-12-08 07:47:37,805 log Unauthorized: /api/v1/auth/token/refresh/
+WARNING 2025-12-08 07:47:37,822 log Unauthorized: /api/v1/auth/token/refresh/
+WARNING 2025-12-08 07:49:36,419 log Unauthorized: /api/v1/auth/login/
+WARNING 2025-12-08 07:53:22,711 log Bad Request: /api/v1/books/18/
+WARNING 2025-12-08 07:53:40,620 log Not Found: /favicon.ico
+WARNING 2025-12-08 08:06:40,528 log Bad Request: /api/v1/books/
+WARNING 2025-12-08 08:06:51,248 log Bad Request: /api/v1/books/
+INFO 2025-12-08 08:13:08,843 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-08 08:36:54,764 log Bad Request: /api/v1/books/
+WARNING 2025-12-08 08:50:44,986 log Unauthorized: /api/v1/books/24/add_image/
+WARNING 2025-12-08 08:50:45,150 log Unauthorized: /api/v1/books/24/add_image/
+WARNING 2025-12-08 08:50:52,213 log Unauthorized: /api/v1/books/24/add_image/
+WARNING 2025-12-08 08:50:52,274 log Unauthorized: /api/v1/auth/token/refresh/
+WARNING 2025-12-08 09:12:30,613 log Bad Request: /api/v1/books/
+INFO 2025-12-08 09:16:56,282 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-08 09:17:00,146 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
