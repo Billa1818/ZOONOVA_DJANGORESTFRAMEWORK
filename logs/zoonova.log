@@ -5117,3 +5117,8 @@ WARNING 2025-12-08 08:50:52,274 log Unauthorized: /api/v1/auth/token/refresh/
 WARNING 2025-12-08 09:12:30,613 log Bad Request: /api/v1/books/
 INFO 2025-12-08 09:16:56,282 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
 INFO 2025-12-08 09:17:00,146 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-08 14:12:26,522 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 14:17:10,965 util message='Request to Stripe api' method=post path=https://api.stripe.com/v1/checkout/sessions
+INFO 2025-12-08 14:17:25,571 util message='Stripe API response' path=https://api.stripe.com/v1/checkout/sessions response_code=200
+INFO 2025-12-09 07:17:55,094 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 08:19:59,360 autoreload Watching for file changes with StatReloader
