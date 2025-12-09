@@ -47,10 +47,14 @@ CORS_ALLOWED_ORIGINS=https://zoonova.fr,http://zoonova.fr
 EMAIL_HOST=smtp.gmail.com
 EMAIL_HOST_USER=votre-email@gmail.com
 EMAIL_HOST_PASSWORD=app-specific-password
-
+........
+........
+........
+........
 # Stripe (optionnel)
 STRIPE_SECRET_KEY=sk_live_xxxxx
 STRIPE_PUBLISHABLE_KEY=pk_live_xxxxx
+
 ```
 
 ### 4. Générez une SECRET_KEY sécurisée
