@@ -9,7 +9,7 @@ from django.core.mail import EmailMultiAlternatives, send_mail
 from django.template.loader import render_to_string
 from django.conf import settings
 from django.utils import timezone
-from django.db.models import Q, Count, Sum
+from django.db.models import Q, Count, Sum, Exists, OuterRef
 from datetime import datetime, timedelta
 
 from .models import Order, OrderItem, Country
@@ -61,6 +61,13 @@ class OrderViewSet(viewsets.ModelViewSet):
     
     def get_queryset(self):
         queryset = Order.objects.all().select_related('country').prefetch_related('items__book')
+        
+        # Filtrer uniquement les commandes avec un paiement "succeeded"
+        from payments.models import StripePayment
+        has_payment_succeeded = Exists(
+            StripePayment.objects.filter(order=OuterRef('pk'), status='succeeded')
+        )
+        queryset = queryset.annotate(has_payment_succeeded=has_payment_succeeded).filter(has_payment_succeeded=True)
         
         # Filtres de date
         start_date = self.request.query_params.get('start_date')
@@ -270,35 +277,43 @@ class OrderViewSet(viewsets.ModelViewSet):
     @action(detail=False, methods=['get'])
     def statistics(self, request):
         """
-        Statistiques des commandes (admin uniquement)
+        Statistiques des commandes avec paiement "succeeded" (admin uniquement)
         """
-        # Total des commandes
-        total_orders = Order.objects.count()
+        from payments.models import StripePayment
         
-        # Revenus totaux
-        total_revenue = Order.objects.aggregate(
+        # Filtre uniquement les commandes avec un paiement "succeeded"
+        has_payment_succeeded = Exists(
+            StripePayment.objects.filter(order=OuterRef('pk'), status='succeeded')
+        )
+        orders_with_payment = Order.objects.annotate(has_payment_succeeded=has_payment_succeeded).filter(has_payment_succeeded=True)
+        
+        # Total des commandes payées (succeeded)
+        total_orders = orders_with_payment.count()
+        
+        # Revenus totaux (commandes "succeeded" uniquement)
+        total_revenue = orders_with_payment.aggregate(
             total=Sum('total')
         )['total'] or 0
         
-        # Commandes par statut
-        orders_by_status = Order.objects.values('status').annotate(
+        # Commandes payées par statut
+        orders_by_status = orders_with_payment.values('status').annotate(
             count=Count('id')
         )
         
-        # Commandes du mois
+        # Commandes payées du mois
         current_month = timezone.now().replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-        monthly_orders = Order.objects.filter(
+        monthly_orders = orders_with_payment.filter(
             created_at__gte=current_month
         ).count()
         
-        monthly_revenue = Order.objects.filter(
+        monthly_revenue = orders_with_payment.filter(
             created_at__gte=current_month
         ).aggregate(total=Sum('total'))['total'] or 0
         
         return Response({
             'total_orders': total_orders,
             'total_revenue': total_revenue / 100,
-            'orders_by_status': orders_by_status,
+            'orders_by_status': list(orders_by_status),
             'monthly_orders': monthly_orders,
             'monthly_revenue': monthly_revenue / 100,
         })
